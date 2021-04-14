@@ -1,17 +1,17 @@
 @font-face {
   font-family: "font-1";
-  src: url(../assets/fonts/Questrial-Regular.ttf);
+  src: url(../assets/fonts/VT323-Regular.ttf);
 }
 @font-face {
   font-family: "font-2";
-  src: url(../assets/fonts/KronaOne-Regular.ttf);
+  src: url(../assets/fonts/8bitOperatorPlus8-Regular.ttf);
 }
 
 $font-1: "font-1", sans-serif;
-$font-2: "font-2", serif;
+$font-2: "font-2", sans-serif;
 
-$color-1: #fafeff;
-$color-2: #00c1ec;
+$color-1: lightgreen;
+$color-2: #0b8325;
 $color-3: #e7f7fe;
 $color-4: rgb(141, 141, 141);
 $black: rgb(40, 40, 40);
@@ -40,9 +40,10 @@ a:visited {
 }
 body {
   font-family: $font-1;
+  font-size: 2em;
   height: 100vh;
-  background-color: $color-1;
-  color: $black;
+  background-color: $black;
+  color: $color-1;
   overflow: hidden;
 
   @media screen and (max-width: 430px){
