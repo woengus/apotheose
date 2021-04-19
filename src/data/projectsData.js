@@ -15,7 +15,7 @@ export const projectsData = [
     date: "Janvier 2021",
     languages: ["Node-js", "Javascript"],
     infos:
-      "Une application pour afficher des pokémon",
+      "Une application pour rechercher et afficher des pokémons",
     img: "./assets/img/projet-2.jpg",
     link: "http://www.google.com",
   },
@@ -31,11 +31,11 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "RogueLite",
-    date: "2021",
+    title: "Woengus RogueLite",
+    date: "Mai 2021",
     languages: ["Unity", "C#"],
     infos:
-      "Mon projet perso de jeu rétro, de type roguelite, fortement inspiré de The Dinding of Isaac",
+      "Mon projet perso de jeu rétro, de type roguelite, fortement inspiré de The Binding of Isaac",
     img: "./assets/img/projet-4.jpg",
     link: "http://www.google.com",
   },
