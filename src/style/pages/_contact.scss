@@ -66,8 +66,8 @@
         border: 1px $color-2 solid;
         border-radius: 50%;
         position: absolute;
-        top: -22px;
-        left: 133px;
+        top: -62px;
+        left: 3px;
         z-index: -1;
       }
     }
@@ -78,13 +78,14 @@
 
       input,
       textarea {
-        background: none;
+        background-color: $black;
         font-family: $font-1;
         font-size: 1.2rem;
         border-bottom: 1px solid $color-2;
 
         @media screen and (min-width: 1200px){
-          font-size: 1.5rem;
+          font-size: 2rem;
+          color:$white;
         }
       }
       input {

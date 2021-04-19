@@ -39,4 +39,8 @@ export const projectsData = [
     img: "./assets/img/projet-4.jpg",
     link: "http://www.google.com",
   },
+  {
+    id:5,
+    img: "./assets/img/moi.jpg",
+  }
 ];

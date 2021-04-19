@@ -4,9 +4,9 @@
 
   .simply {
     color: $color-4;
+    
   }
-
-  #text-target {
+   #text-target {
     display: flex;
     width: 300px;
     text-align: left;
@@ -20,12 +20,15 @@
   @keyframes color {
     0% {
       color: $color-2;
+      
     }
     50% {
       color: $color-4;
+     
     }
     100% {
       color: $color-2;
+    
     }
   }
   .letter {

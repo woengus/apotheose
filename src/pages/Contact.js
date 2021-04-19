@@ -4,6 +4,7 @@ import SocialNetwork from "../components/SocialNetwork";
 import Mouse from "../components/Mouse";
 import ButtonsBottom from "../components/ButtonsBottom";
 import CopyToClipboard from "react-copy-to-clipboard"; //permet de copier dans le prese papier en cliquant, ici le numéro de téléphone
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
   return (
@@ -11,6 +12,7 @@ const Contact = () => {
       <Mouse />
       <div className="contact">
         <Navigation />
+        <ContactForm/>
         <div className="contact-infos">
           <div className="address">
             <div className="content">
