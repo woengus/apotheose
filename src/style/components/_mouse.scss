@@ -1,8 +1,8 @@
 .cursor {
-  width: 62px;
-  height: 62px;
-  border: 1px solid $color-2;
-  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: 2px solid $color-2;
+  border-radius: 40%;
   position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: none;
@@ -11,7 +11,7 @@
   transition: top 160ms ease-out;
   transition: left 160ms ease-out;
   z-index: 2;
-  backdrop-filter: brightness(115%);
+ 
 }
 .cursor.hovered {
   width: 30px;

@@ -31,7 +31,7 @@ const Project = (props) => {
                   <img src={project.img} alt={project.title} />
                 </div> 
                 <div className="button-container">
-                         <a href={project.link} target="_blank" rel="noopener noreferrer className="hover>
+                         <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover">
                              <span className="button">Voir le site</span>
                          </a>
                 </div>    
