@@ -13,7 +13,7 @@ export const projectsData = [
     id: 2,
     title: "Pokédex",
     date: "Janvier 2021",
-    languages: ["Node-js", "Javascript"],
+    languages: ["Node-js", "Express", "Javascript"],
     infos:
       "Une application pour rechercher et afficher des pokémons",
     img: "./assets/img/projet-2.jpg",
@@ -23,7 +23,7 @@ export const projectsData = [
     id: 3,
     title: "Liste de jeu",
     date: "Avril 2021",
-    languages: ["React", "Javascript", "Node-js"],
+    languages: ["React", "Javascript", "Node-js","PostgreSQL"],
     infos:
       "Une appli simple pour intéragir avec une base de donnée",
     img: "./assets/img/projet-3.jpg",

@@ -53,7 +53,7 @@ export const Project4 = () => {
             <Navigation/>
             <SocialNetwork/>
             <Project projectNumber={3} /> 
-            <ButtonsBottom left={'/project-3'} right={'/project-1'}/>
+            <ButtonsBottom left={'/project-3'} right={'/contact'}/>
             </div>
         </main>
     )
