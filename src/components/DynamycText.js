@@ -3,7 +3,7 @@ import React, { useEffect} from 'react';
 const DynamycText = () => {
     //logique d'animation du texte de la page Home
     useEffect (()=> {
-        let array = ["NodeJs","JavaScript","React","Unity"];
+        let array = ["NodeJs","JavaScript","React","Unity","ISTQB"];
         let wordIndex =0;
         let letterIndex = 0;
 

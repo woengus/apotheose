@@ -33,6 +33,11 @@ const SocialNetwork = () => {
                         <i className="fab fa-twitter"></i>
                     </li>
                 </a>
+                <a href="https://github.com/woengus" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={anim}>
+                    <li>
+                        <i className="fab fa-github"></i>
+                    </li>
+                </a>
             </ul> 
         </div>
     );

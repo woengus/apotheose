@@ -1,11 +1,15 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 import SocialNetwork from '../components/SocialNetwork';
 
 const Contact = () => {
     return (
         <div>
             <SocialNetwork />
-            Contact 
+            <Navigation>
+                Contact 
+            </Navigation>
+            
         </div>
     );
 };
